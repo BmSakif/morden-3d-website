@@ -37,6 +37,10 @@ export const metadata: Metadata = {
   },
 };
 
+import Header from "@/components/Header";
+
+// ... existing imports
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -48,6 +52,7 @@ export default function RootLayout({
         className={`${inter.variable} font-sans antialiased`}
         suppressHydrationWarning
       >
+        <Header />
         {children}
       </body>
     </html>
