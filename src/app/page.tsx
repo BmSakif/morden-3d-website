@@ -104,7 +104,7 @@ export default function Home() {
       <div className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 md:bottom-10 md:left-10 flex gap-2 sm:gap-4 pointer-events-none items-center z-20">
         <div className="w-[1px] h-6 sm:h-8 md:h-12 bg-accent/40" />
         <p className="text-[7px] sm:text-[8px] md:text-[10px] font-mono tracking-[0.4em] sm:tracking-[0.5em] uppercase text-white/30">
-          SSR X DESIGN LABORATORY © 2026
+          SSR X DESIGN AND CREATED BY BM SAKIF
         </p>
       </div>
     </main>
